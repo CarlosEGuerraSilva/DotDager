@@ -1,0 +1,24 @@
+# Ignore .env files
+.env
+
+# Ignore .log debug files in App/Logs/Debug
+App/Logs/Debug/*.log
+
+# Ignore .log warning files in App/Logs/Warnings
+App/Logs/Warnings/*.log
+
+# Ignore .log error files in App/Logs/Errors
+App/Logs/Errors/*.log
+
+# Ignore .json test results files in App/Tests/Results
+App/Tests/Results/*.json
+
+# Ignore .cache files in App/Cache
+App/Cache/*.cache
+
+# Ignore routermap yaml files
+/routermap_*.yaml
+
+# Ignore files stored in Files/ except for .htaccess.
+Files/*
+!Files/.htaccess
