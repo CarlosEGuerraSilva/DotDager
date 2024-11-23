@@ -4,6 +4,10 @@
 	background-color: rgb(217 223 229);
 }
 
+body{
+	overflow-x: hidden !important;
+}
+
 :root {
 	--border: 1px solid var(--md-sys-color-outline-variant);
 	--profile-photo-height: 130px;

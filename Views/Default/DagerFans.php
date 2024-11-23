@@ -119,21 +119,21 @@ use App\Core\Server\Actions;
 				<md-outlined-button>Foto (9)</md-outlined-button>
 				<md-outlined-button>Videos (0)</md-outlined-button>
 			</div>
-			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-2 gy-1">
 				<div class="col">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/profile.png") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_bread.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cell.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/profile.png") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_bread.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cell.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
 				</div>
 				<div class="col">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dager_guitarra.jpg") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_anon.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dager_guitarra.jpg") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_anon.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
 				</div>
 				<div class="col">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cat.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/ahegao.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_advice.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cat.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/ahegao.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_advice.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-2">
 				</div>
 			</div>
 		</div>
