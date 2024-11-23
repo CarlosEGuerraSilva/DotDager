@@ -16,7 +16,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 	});
 	setTheme(currentTheme);
 	let selectedLang = document.body.getAttribute("display-lang") ?? "en";
-	console.log(selectedLang);
 	if (selectedLang == "es-419") {
 		document.getElementById("langChange").selected = true;
 		document.getElementById("langChange").setAttribute("href", "en");
@@ -32,10 +31,10 @@ window.addEventListener('themeChanged', ()=>{
 	linkTag.setAttribute("current-theme", "");
 	let currentTheme = localStorage.getItem("theme") ?? "light";
 	if (currentTheme == "dark") {
-		linkTag.href = window.location.origin + "/dotdager/public/store-long/Styles/dark.css";
+		linkTag.href = window.location.origin + "/dotdager/public/store-very-rare/Styles/dark.css";
 		themeChanger.selected = false;
 	} else {
-		linkTag.href = window.location.origin + "/dotdager/public/store-long/Styles/light.css";
+		linkTag.href = window.location.origin + "/dotdager/public/store-very-rare/Styles/light.css";
 		themeChanger.selected = true;
 	}
 	let currentTag = document.querySelector("link[current-theme]");
