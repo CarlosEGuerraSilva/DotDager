@@ -10,9 +10,9 @@ class Index_Module extends Module
 {
 	static function registerRoutes()
 	{
-		Router::getInstance()->addRoute('/', Home::class);
-		Router::getInstance()->addRoute('/public/{version}/{@resource}', ResourceManager::class);
-		Router::getInstance()->addRoute('/favicon.ico', [Home::class,'favicon']);
+		Router::getInstance()->addRoute('/dotdager/', Home::class);
+		Router::getInstance()->addRoute('/dotdager/public/{version}/{@resource}', ResourceManager::class);
+		Router::getInstance()->addRoute('/dotdager/favicon.ico', [Home::class,'favicon']);
 	}
 
 	static function getFallback()
