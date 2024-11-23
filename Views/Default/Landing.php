@@ -35,7 +35,6 @@ use App\Core\Server\Actions;
 	<meta name="description" content="<?php echo Actions::printLocalized(Strings::APP_DESCRIPTION) ?>">
 	<script src="<?php echo Actions::printScript("mdwc.min.js") ?>"></script>
 	<script src="<?php echo Actions::printScript("core.js") ?>"></script>
-	<script src="<?php echo Actions::printScript("masonry.pkgd.min.js") ?>"></script>
 	<link rel="stylesheet" href="<?php echo Actions::printCSS("normalize.css") ?>">
 	<link rel="stylesheet" href="<?php echo Actions::printCSS("bootstrap.css") ?>">
 	<link rel="stylesheet" href="<?php echo Actions::printCSS("icons.css") ?>">
