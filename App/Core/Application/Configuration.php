@@ -12,7 +12,7 @@ class Configuration
     /**
      * The version of the application.
      */
-    public const APP_VERSION = "0.0.0-dev1";
+    public const APP_VERSION = "1.0";
 
     /**
      * The URL path where is located the application locally.

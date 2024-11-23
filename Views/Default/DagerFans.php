@@ -48,9 +48,11 @@ use App\Core\Server\Actions;
 			<img src="<?php echo Actions::printResource("Images/dagerfans/dfans-cover.webp") ?>" alt="Cover">
 			<div class="d-flex justify-content-between">
 				<div class="d-flex align-items-center gap-2">
-					<md-icon-button href="<?php echo Actions::printRoute("") ?>">
-						<span class="ficon icon-arrow-left"></span>
-					</md-icon-button>
+					<a href="<?php echo Actions::printRoute("") ?>">
+						<md-icon-button>
+							<span class="ficon icon-arrow-left"></span>
+						</md-icon-button>
+					</a>
 					<strong>DotDager</strong><span class="ficon icon-check-circle"></span>
 				</div>
 				<md-icon-button>
