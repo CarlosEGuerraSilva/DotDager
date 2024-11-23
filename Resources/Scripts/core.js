@@ -23,10 +23,10 @@ window.addEventListener('themeChanged', ()=>{
 	linkTag.setAttribute("current-theme", "");
 	let currentTheme = localStorage.getItem("theme") ?? "light";
 	if (currentTheme == "dark") {
-		linkTag.href = window.location.origin + "/public/store-regular/Styles/dark.css";
+		linkTag.href = window.location.origin + "/dotdager/public/store-regular/Styles/dark.css";
 		themeChanger.selected = false;
 	} else {
-		linkTag.href = window.location.origin + "/public/store-regular/Styles/light.css";
+		linkTag.href = window.location.origin + "/dotdager/public/store-regular/Styles/light.css";
 		themeChanger.selected = true;
 	}
 	let currentTag = document.querySelector("link[current-theme]");
