@@ -111,7 +111,7 @@ use App\Core\Server\Actions;
 					<a href="https://github.com/MarianoVilla/Git-In-CSharp" class="text-decoration-none d-block mb-4">
 						<div class="project-card">
 							<md-ripple></md-ripple>
-							<img src="<?php echo Actions::printResource("Images/projects/project_1.png") ?>" alt="Imagen del proyecto">
+							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_1.png") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
 							<div class="p-4">
 								<h5><strong>Git-In-CSharp.</strong></h5>
 								<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_PROJECTS_PROJECT_1_DESCRIPTION) ?></p>
@@ -126,7 +126,7 @@ use App\Core\Server\Actions;
 					<a href="https://github.com/MarianoVilla/cocobot" class="text-decoration-none d-block">
 						<div class="project-card">
 							<md-ripple></md-ripple>
-							<img src="<?php echo Actions::printResource("Images/projects/project_4.png") ?>" alt="Imagen del proyecto">
+							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_4.png") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
 							<div class="p-4">
 								<h5><strong>cocobot.</strong></h5>
 								<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_PROJECTS_PROJECT_4_DESCRIPTION) ?></p>
@@ -143,7 +143,7 @@ use App\Core\Server\Actions;
 					<a href="https://github.com/MarianoVilla/DNS-Server" class="text-decoration-none d-block mb-4">
 						<div class="project-card">
 							<md-ripple></md-ripple>
-							<img src="<?php echo Actions::printResource("Images/projects/project_2.png") ?>" alt="Imagen del proyecto">
+							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_2.png") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
 							<div class="p-4">
 								<h5><strong>DNS-Server.</strong></h5>
 								<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_PROJECTS_PROJECT_2_DESCRIPTION) ?></p>
@@ -157,7 +157,7 @@ use App\Core\Server\Actions;
 					<a href="https://github.com/MarianoVilla/HTTP-Server" class="text-decoration-none d-block">
 						<div class="project-card">
 							<md-ripple></md-ripple>
-							<img src="<?php echo Actions::printResource("Images/projects/project_3.png") ?>" alt="Imagen del proyecto">
+							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_3.png") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
 							<div class="p-4">
 								<h5><strong>HTTP-Server.</strong></h5>
 								<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_PROJECTS_PROJECT_3_DESCRIPTION) ?></p>
@@ -189,7 +189,7 @@ use App\Core\Server\Actions;
 					<a href="#projects" class="text-decoration-none position-relative">
 						<md-ripple></md-ripple>
 						<div class="card-photo">
-							<img class="img-fluid" src="<?php echo Actions::printResource("Images/dd_book.webp") ?>" alt="">
+							<img class="img-fluid" src="<?php echo Actions::printResource("Images/dd_book.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
 							<div class="p-3">
 								<h3><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_TOPIC_1) ?></strong></h3>
 								<p class="mt-3"><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_TOPIC_1_DESCRIPTION) ?></p>
@@ -202,7 +202,7 @@ use App\Core\Server\Actions;
 					<a href="https://discord.gg/4NFk6TamAB" class="text-decoration-none position-relative">
 						<md-ripple></md-ripple>
 						<div class="card-photo">
-							<img class="img-fluid" src="<?php echo Actions::printResource("Images/dd_gulp2.webp") ?>" alt="">
+							<img class="img-fluid" src="<?php echo Actions::printResource("Images/dd_gulp2.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
 							<div class="p-3">
 								<h3><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_TOPIC_2) ?></strong></h3>
 								<p class="mt-3"><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_TOPIC_2_DESCRIPTION) ?></p>
@@ -215,7 +215,7 @@ use App\Core\Server\Actions;
 					<a href="https://open.spotify.com/intl-es/artist/6bkClBMJd4qKxJp0J5vHsz?si=mbfNHqvBT9SKSQ-ZNhXHJg" class="text-decoration-none position-relative">
 						<md-ripple></md-ripple>
 						<div class="card-photo">
-							<img class="img-fluid" src="<?php echo Actions::printResource("Images/dd_guitar.webp") ?>" alt="">
+							<img class="img-fluid" src="<?php echo Actions::printResource("Images/dd_guitar.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
 							<div class="p-3">
 								<h3><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_TOPIC_3) ?></strong></h3>
 								<p class="mt-3"><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_TOPIC_3_DESCRIPTION) ?></p>
@@ -235,14 +235,14 @@ use App\Core\Server\Actions;
 			<div class="row row-cols-1 row-cols-lg-2 gx-1 gx-md-5 gy-4">
 				<div class="col">
 					<div class="about-extra mb-4">
-						<img src="<?php echo Actions::printResource("Images/dd_cat.webp") ?>" alt="Imagen">
+						<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cat.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
 						<div class="p-5">
 							<h3 class="fs-1"><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_1) ?></strong></h3>
 							<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_1_DESCRIPTION) ?></p>
 						</div>
 					</div>
 					<div class="about-extra">
-						<img src="<?php echo Actions::printResource("Images/dd_beard.webp") ?>" alt="Imagen">
+						<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_beard.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
 						<div class="p-5">
 							<h3 class="fs-1"><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_2) ?></strong></h3>
 							<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_2_DESCRIPTION) ?></p>
@@ -251,7 +251,7 @@ use App\Core\Server\Actions;
 				</div>
 				<div class="col">
 					<div class="about-extra mb-2 h-100">
-						<img src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="Imagen">
+						<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
 						<div class="p-5">
 							<h3 class="fs-1"><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_3) ?></strong></h3>
 							<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_3_DESCRIPTION) ?></p>
@@ -273,7 +273,7 @@ use App\Core\Server\Actions;
 		<a href="dagerfans" class="position-relative">
 			<md-ripple></md-ripple>
 			<div class="p-5 d-flex align-items-center justify-content-center dagerfans-container">
-				<img src="<?php echo Actions::printResource("Images/dager_fans.svg") ?>" alt="DagerFans" class="img-fluid">
+				<img loading="lazy" src="<?php echo Actions::printResource("Images/dager_fans.svg") ?>" alt="DagerFans" class="img-fluid">
 			</div>
 		</a>
 	</div>
