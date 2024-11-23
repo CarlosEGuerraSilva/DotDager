@@ -15,9 +15,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 		toggleTheme();
 	});
 	setTheme(currentTheme);
-});
-
-window.addEventListener('load', ()=>{
 	let selectedLang = document.body.getAttribute("display-lang") ?? "en";
 	console.log(selectedLang);
 	if (selectedLang == "es-419") {
