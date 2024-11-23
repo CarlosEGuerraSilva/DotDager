@@ -65,6 +65,10 @@ class LanguageManager extends SingletonInstance
 		$this->loadLanguageData($this->language);
 	}
 
+	public function getLanguage():string {
+		return $this->language;
+	}
+
 	/**
 	 * Loads the language data for the current language.
 	 */

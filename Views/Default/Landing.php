@@ -1,10 +1,11 @@
 <?php
 
+use App\Core\Framework\Classes\LanguageManager;
 use App\Core\Framework\Classes\Strings;
 use App\Core\Server\Actions;
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo Actions::getDisplayLang() ?>">
+<html lang="<?php echo LanguageManager::getInstance()->getLanguage() ?>">
 
 <head>
 	<meta charset="UTF-8">
@@ -16,7 +17,7 @@ use App\Core\Server\Actions;
 	<meta property="og:url" content="<?php echo Actions::printRoute() ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="<?php echo Actions::printLocalized(Strings::APP_NAME) ?>">
-	<meta property="og:locale" content="<?php echo Actions::getDisplayLang() ?>">
+	<meta property="og:locale" content="<?php echo LanguageManager::getInstance()->getLanguage() ?>">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="<?php echo Actions::printLocalized(Strings::APP_NAME) ?>">
 	<meta name="twitter:description" content="<?php echo Actions::printLocalized(Strings::APP_DESCRIPTION) ?>">
@@ -42,20 +43,24 @@ use App\Core\Server\Actions;
 	<link rel="stylesheet" href="<?php echo Actions::printCSS("icons.css") ?>">
 </head>
 
-<body>
+<body display-lang="<?php echo LanguageManager::getInstance()->getLanguage() ?>">
 	<nav id="mainNav">
 		<a href="#" class="nav-logo" aria-label="<?php echo Actions::printLocalized(Strings::APP_NAME) ?>">
 			<img src="<?php echo Actions::printResource("Images/logo_hotizontal.svg") ?>" alt="DotDager" height="45">
 		</a>
-		<div class="d-inline-flex gap-1">
-			<md-outlined-icon-button toggle id="themeChanger">
+		<div class="d-inline-flex gap-3">
+			<md-outlined-icon-button toggle id="langChange" aria-label="<?php echo Actions::printLocalized(Strings::DOT_DAGER_TOGGLE_LANG) ?>" title="<?php echo Actions::printLocalized(Strings::DOT_DAGER_TOGGLE_LANG) ?>">
+				<img src="<?php echo Actions::printResource("Images/lang_es.svg") ?>" alt="Español" class="img-fluid">
+				<img src="<?php echo Actions::printResource("Images/lang_us.svg") ?>" alt="English" class="img-fluid" slot="selected">
+			</md-outlined-icon-button>
+			<md-outlined-icon-button toggle id="themeChanger" aria-label="<?php echo Actions::printLocalized(Strings::DOT_DAGER_TOGGLE_THEME) ?>" title="<?php echo Actions::printLocalized(Strings::DOT_DAGER_TOGGLE_THEME) ?>">
 				<span class="siteicon icon-light" slot="selected"></span>
 				<span class="siteicon icon-dark"></span>
 			</md-outlined-icon-button>
 		</div>
 	</nav>
-	<a href="#">
-		<md-fab aria-hidden="true" id="goTop" href="#">
+	<a href="#" aria-hidden="true">
+		<md-fab id="goTop" href="#">
 			<span class="siteicon icon-arrow_up" slot="icon"></span>
 		</md-fab>
 	</a>

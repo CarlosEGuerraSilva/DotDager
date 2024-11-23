@@ -18,6 +18,10 @@
 
 }
 
+html[debug] * {
+	outline: 1px solid red;
+}
+
 :root {
 	--dialog-zindex: 1050;
 	--navbar-zindex: 1040;
@@ -99,6 +103,7 @@ img {
 .heading-section {
 	text-decoration: none !important;
 	text-transform: uppercase;
+	scroll-padding-top: 77px;
 }
 
 .text-shadow {

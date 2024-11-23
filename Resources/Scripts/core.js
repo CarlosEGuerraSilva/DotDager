@@ -8,13 +8,25 @@ window.addEventListener('DOMContentLoaded', ()=>{
 	if (!currentTheme) {
 		let theme = userPrefersDarkTheme() ? "dark" : "light";
 		localStorage.setItem("theme", theme);
-		themeChanger.checked = userPrefersDarkTheme() ? false : true;
+		themeChanger.selected = userPrefersDarkTheme() ? false : true;
 		currentTheme = theme;
 	}
 	themeChanger.addEventListener('click', ()=>{
 		toggleTheme();
 	});
 	setTheme(currentTheme);
+});
+
+window.addEventListener('load', ()=>{
+	let selectedLang = document.body.getAttribute("display-lang") ?? "en";
+	console.log(selectedLang);
+	if (selectedLang == "es-419") {
+		document.getElementById("langChange").selected = true;
+		document.getElementById("langChange").setAttribute("href", "en");
+	} else {
+		document.getElementById("langChange").selected = false;
+		document.getElementById("langChange").setAttribute("href", "es");
+	}
 });
 
 window.addEventListener('themeChanged', ()=>{

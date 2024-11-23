@@ -56,6 +56,8 @@
   "DOT_DAGER_LINKS_PROJECTS": "Projects",
   "DOT_DAGER_PROJECT_IMAGE": "Imagen ilustrativa del proyecto",
   "DOT_DAGER_QUICKLINKS": "Enlaces rápidos",
+  "DOT_DAGER_TOGGLE_LANG": "Cambiar idioma",
+  "DOT_DAGER_TOGGLE_THEME": "Alternar tema",
   "FORBIDDEN": "Esta acción no está permitida..",
   "INCOMPLETE_POST": "Faltan uno o más parámetros para ejecutar esta operación.",
   "INTERNAL_SERVER_ERROR": "Se ha producido un error.",
