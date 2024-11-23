@@ -33,10 +33,12 @@ Estas fueron las indicaciones de lo que pidió:
 >
 >Best, Mariano/Dot Dager.
 
-Adicionalmente comentó que sería genial incluir un easter-egg a LumberJack (conseguido).
+Adicionalmente comentó que sería genial incluir un easter-egg a LumberJack (conseguido haciendo click en el interés de pepinos).
 
 Esta es mi propuesta de landing page, mantiene un tono semi-serio, haciendo pequeños chistes en varios lugares pero conservando seriedad en los pocos lugares en los que se necesita.
 
 Esta página fué hecha con [GUSI Framework v3](https://github.com/Expringsoft/GUSI-Framework-3/) como framework backend, utiliza [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) y [Material Web Components](https://github.com/material-components/material-web), el resto es CSS/HTML puro como campeón.
 
 Las ilustraciones personalizadas son creadas por mí con Figma. La página se encuentra disponible en Inglés y Español (es-419), localización gestionada por el framework.
+
+Live preview: https://previews.expringsoft.com/dotdager/
