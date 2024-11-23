@@ -17,12 +17,14 @@ class Index_Module extends Module
 			Router::getInstance()->addRoute('/favicon.ico', [Home::class, 'favicon']);
 			Router::getInstance()->addRoute('/en', [Home::class, 'langEn']);
 			Router::getInstance()->addRoute('/es', [Home::class, 'langEs']);
+			Router::getInstance()->addRoute('/dagerfans', [Home::class, 'DagerFans']);
 		} else {
 			Router::getInstance()->addRoute('/dotdager/', Home::class);
 			Router::getInstance()->addRoute('/dotdager/public/{version}/{@resource}', ResourceManager::class);
 			Router::getInstance()->addRoute('/dotdager/favicon.ico', [Home::class, 'favicon']);
 			Router::getInstance()->addRoute('/dotdager/en', [Home::class, 'langEn']);
 			Router::getInstance()->addRoute('/dotdager/es', [Home::class, 'langEs']);
+			Router::getInstance()->addRoute('/dotdager/dagerfans', [Home::class, 'DagerFans']);
 		}
 	}
 

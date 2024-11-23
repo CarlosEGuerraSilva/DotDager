@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'dagerfans';
+  src: url('../Webfonts/dagerfans.eot?k21mwq');
+  src: url('../Webfonts/dagerfans.eot?k21mwq#iefix') format('embedded-opentype'),
+    url('../Webfonts/dagerfans.ttf?k21mwq') format('truetype'),
+    url('../Webfonts/dagerfans.woff?k21mwq') format('woff'),
+    url('../Webfonts/dagerfans.svg?k21mwq#dagerfans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ficon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dagerfans' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "\e909";
+}
+
+.icon-aperture:before {
+  content: "\e900";
+}
+
+.icon-check-circle:before {
+  content: "\e901";
+}
+
+.icon-dollar-sign:before {
+  content: "\e902";
+}
+
+.icon-inbox:before {
+  content: "\e903";
+}
+
+.icon-message-circle:before {
+  content: "\e904";
+}
+
+.icon-message-square:before {
+  content: "\e905";
+}
+
+.icon-more-vertical:before {
+  content: "\e906";
+}
+
+.icon-sliders:before {
+  content: "\e907";
+}
+
+.icon-star:before {
+  content: "\e908";
+}

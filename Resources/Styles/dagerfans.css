@@ -1,0 +1,74 @@
+#main-container {
+	max-width: 900px;
+	padding: 0;
+	background-color: rgb(217 223 229);
+}
+
+:root {
+	--border: 1px solid var(--md-sys-color-outline-variant);
+	--profile-photo-height: 130px;
+}
+
+.profile-section {
+	--md-icon-button-icon-color: white;
+	--md-sys-color-on-surface-variant: whitesmoke;
+	background-color: var(--md-sys-color-background);
+	padding: 0.5rem;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	width: 100%;
+	color: white;
+	aspect-ratio: 3.5/1;
+}
+
+md-filled-button.sub-button::part(label) ::slotted(*) {
+	width: 100%;
+}
+
+section {
+	background-color: var(--md-sys-color-background);
+}
+
+.profile-photo {
+	border-radius: 50%;
+	border: 4px solid rgb(177, 96, 45);
+	aspect-ratio: 1/1;
+	max-width: var(--profile-photo-height);
+	overflow: hidden;
+	position: absolute !important;
+	transform: translateY(-50%);
+}
+
+.padding-photo {
+	padding-bottom: calc(var(--profile-photo-height) / 4);
+}
+
+.border-x {
+	border-left: var(--border);
+	border-right: var(--border);
+}
+
+.border-y {
+	border-top: var(--border);
+	border-bottom: var(--border);
+}
+
+.profile-section>img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.profile-section h3 {
+	color: var(--md-sys-color-on-primary-inverse);
+}
+
+.profile-section *:not(img) {
+	z-index: 1;
+	position: relative;
+}

@@ -22,6 +22,11 @@ class Home extends Controller
 		$this->setView('Default/Landing.php');
 	}
 
+	public function DagerFans(...$args){
+		self::localize();
+		$this->setView('Default/DagerFans.php');
+	}
+
 	public static function getParentModule(): string
 	{
 		return Index_Module::class;

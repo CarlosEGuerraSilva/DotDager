@@ -108,7 +108,7 @@ class Actions
 	{
 		self::clearOutputBuffer();
 		http_response_code($code);
-		$output = self::requireView(Configuration::PATH_APP_NOT_FOUND_PAGE);
+		$output = self::requireView(Configuration::PATH_APP_ERROR_PAGE);
 		echo $output;
 	}
 
