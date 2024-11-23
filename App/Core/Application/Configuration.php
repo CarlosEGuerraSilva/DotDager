@@ -22,7 +22,7 @@ class Configuration
     /**
      * The domain of the application (without the protocol, ending with a slash).
      */
-    public const APP_DOMAIN = "gusi-framework.local/";
+    public const APP_DOMAIN = "https://previews.expringsoft.com/dotdager/";
 
     /**
      * The default language code for default lang file.
@@ -48,12 +48,12 @@ class Configuration
     /**
      * Enable or disable debug mode.
      */
-    public const DEBUG_ENABLED = true;
+    public const DEBUG_ENABLED = false;
 
     /**
      * Set whether the application is running in a local environment.
      */
-    public const LOCAL_ENVIRONMENT = true;
+    public const LOCAL_ENVIRONMENT = false;
 
     /**
      * Allow or disallow testing outside the local environment.
