@@ -22,7 +22,7 @@ class Configuration
     /**
      * The domain of the application (without the protocol, ending with a slash).
      */
-    public const APP_DOMAIN = "fantastic-pegasus-b40c72.netlify.app/";
+    public const APP_DOMAIN = "landing-dotdager.netlify.app/";
 
     /**
      * The default language code for default lang file.
