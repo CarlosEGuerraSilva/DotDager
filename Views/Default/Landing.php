@@ -255,13 +255,16 @@ use App\Core\Server\Actions;
 					</div>
 				</div>
 				<div class="col">
-					<div class="about-extra mb-2 h-100">
-						<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
-						<div class="p-5">
-							<h3 class="fs-1"><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_3) ?></strong></h3>
-							<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_3_DESCRIPTION) ?></p>
+					<a href="https://tbot.xyz/lumber/" class="text-decoration-none position-relative">
+						<md-ripple></md-ripple>
+						<div class="about-extra mb-2 h-100">
+							<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">
+							<div class="p-5">
+								<h3 class="fs-1"><strong><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_3) ?></strong></h3>
+								<p><?php echo Actions::printLocalized(Strings::DOT_DAGER_LANDING_SECTION_ABOUT_EXTRA_3_DESCRIPTION) ?></p>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
