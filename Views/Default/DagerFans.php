@@ -119,19 +119,19 @@ use App\Core\Server\Actions;
 			</div>
 			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
 				<div class="col">
-					<img src="<?php echo Actions::printResource("Images/profile.png") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img src="<?php echo Actions::printResource("Images/dd_bread.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img src="<?php echo Actions::printResource("Images/dd_cell.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/profile.png") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_bread.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cell.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
 				</div>
 				<div class="col">
-					<img src="<?php echo Actions::printResource("Images/dager_guitarra.jpg") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img src="<?php echo Actions::printResource("Images/dd_anon.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dager_guitarra.jpg") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_anon.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
 				</div>
 				<div class="col">
-					<img src="<?php echo Actions::printResource("Images/dd_cat.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img src="<?php echo Actions::printResource("Images/ahegao.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
-					<img src="<?php echo Actions::printResource("Images/dd_advice.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_cat.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/ahegao.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
+					<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_advice.webp") ?>" alt="Foto de DotDager" class="img-fluid mb-4">
 				</div>
 			</div>
 		</div>
