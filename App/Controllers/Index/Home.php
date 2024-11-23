@@ -11,9 +11,7 @@ class Home extends Controller
 {
 	public function Main(...$args)
 	{
-		// Set the view
-		Logger::LogDebug(null, "[WATCHER] UA:" . UAParser::getOSFromUserAgent() . ' with ' . UAParser::getBrowserFromUserAgent());
-		$this->setView('Default/Home.php');
+		$this->setView('Default/Landing.php');
 	}
 
 	public static function getParentModule(): string
