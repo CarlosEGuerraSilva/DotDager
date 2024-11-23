@@ -1,0 +1,143 @@
+.dager-hero {
+	transition: all 0.2s ease-out;
+}
+
+.dager-hero {
+	filter: drop-shadow(2px 4px 6px #0004);
+}
+
+.dager-hero:hover {
+	filter: drop-shadow(-15px 15px 0px var(--md-sys-color-tertiary));
+}
+
+#backgroundTop {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	color: var(--md-sys-color-secondary);
+	object-fit: cover;
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+.hero b {
+	font-weight: bold !important;
+	color: var(--md-sys-color-primary);
+}
+
+.hero-links {
+	color: var(--md-sys-color-primary);
+}
+
+.hero h1, .hero h2 {
+	text-shadow: -4px 4px 10px var(--md-sys-color-background);
+}
+
+.contact-me {
+	--btn-scale: 1.4;
+	scale: var(--btn-scale);
+	margin-bottom: 1.3rem;
+	margin-top: 0.7rem;
+}
+
+.bg-notes {
+	background-image: url(../Images/notes_head.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.projects-container {
+	max-width: 1080px;
+}
+
+.dagerfans-container {
+	background-color: var(--md-sys-color-secondary-container);
+	border-radius: 1rem;
+}
+
+.dagerfans-container img {
+	max-width: 900px !important;
+	width: 100%;
+}
+
+.project-card {
+	border: 1px solid var(--md-sys-color-outline);
+	position: relative;
+	text-decoration: none !important;
+}
+
+.project-card img {
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+.project-card .tag {
+	background-color: var(--md-sys-color-primary-container);
+	color: var(--md-sys-color-on-primary-container);
+	display: inline-block;
+	border-radius: 0.65rem;
+	padding: 0.15rem 0.55rem;
+	font-size: small;
+}
+
+.card-photo {
+	--base-width: 3px;
+	border: var(--base-width) solid var(--md-sys-color-secondary);
+	border-top-width: calc(var(--base-width) * 2);
+	border-bottom-width: calc(var(--base-width) * 4);
+	height: 100%;
+}
+
+.card-photo img {
+	aspect-ratio: 16/9;
+}
+
+.about-extra {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 8px;
+	width: 100%;
+	display: grid;
+	align-items: end;
+	color: white;
+}
+
+.about-extra img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.about-extra::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 2;
+}
+
+.about-extra h3 {
+	color: var(--md-sys-color-on-primary-inverse);
+}
+
+.about-extra *:not(img) {
+	z-index: 5;
+	position: relative;
+}
+
+@media screen and (min-width: 992px) {
+	.contact-me {
+		margin-left: 1.3rem;
+	}
+}

@@ -1,53 +1,115 @@
-:root{
-	--headline-color: #424242;
-	--subheadline-color: #808080;
-	--background-color: #f2f2f2;
+@font-face {
+	font-family: 'montserrat';
+	src: url('../Webfonts/montserrat-bold-webfont.woff2') format('woff2'),
+		url('../Webfonts/montserrat-bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+
 }
 
-*, *::after, *::before {
-	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	padding: 0;
+@font-face {
+	font-family: 'montserrat';
+	src: url('../Webfonts/montserrat-regular-webfont.woff2') format('woff2'),
+		url('../Webfonts/montserrat-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+:root {
+	--dialog-zindex: 1050;
+	--navbar-zindex: 1040;
+	--fab-zindex: 1030;
+}
+
+*:not([icon]) {
+	font-family: 'montserrat';
 }
 
 body {
+	background-color: var(--md-sys-color-background);
+	color: var(--md-sys-color-on-background);
+}
+
+nav#mainNav {
 	padding: 1rem;
-	margin-top: 3rem;
-	background: var(--background-color);
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: var(--navbar-zindex);
+	background-color: var(--md-sys-color-surface);
+	border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.nav-logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	text-decoration: none !important;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 h1 {
-	color: var(--headline-color);
-	font-size: 3em;
+	text-wrap: balance;
 }
 
-h4 {
-	color: var(--subheadline-color);
-	font-size: 1.5em;
+a {
+	color: var(--md-sys-color-primary);
 }
 
-pre {
-	overflow: auto;
-	padding: 1rem;
-	background-color: #292929;
-	color: white;
-	font-family: "Cascadia Code", "Consolas", monospace;
+a:visited {
+	color: var(--md-sys-color-secondary);
 }
 
-img{
-	max-width: 100%;
-	max-height: 250px;
+b, strong {
+	font-weight: bold !important;
+}
+
+.pretty {
+	text-wrap: pretty;
+}
+
+img {
+	-webkit-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
-	pointer-events: none;
 	-webkit-user-drag: none;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--headline-color: #f3f3f3;
-		--subheadline-color: #c7c7c7;
-		--background-color: #292929;
+#goTop {
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	z-index: var(--fab-zindex);
+	animation: scaleUp 0.15s ease-in;
+}
+
+.background-bg {
+	background-color: var(--md-sys-color-background);
+}
+
+.heading-section {
+	text-decoration: none !important;
+	text-transform: uppercase;
+}
+
+.text-shadow {
+	text-shadow: 0px 7px 10px var(--md-sys-color-background);
+	filter: drop-shadow(2px 4px 2px var(--md-sys-color-background));
+}
+
+@keyframes scaleUp {
+	0% {
+		scale: 0%;
+	}
+
+	100% {
+		scale: 100%;
 	}
 }
