@@ -83,5 +83,6 @@ class Strings{
 	public const DOT_DAGER_GENERIC_PHOTO = "DOT_DAGER_GENERIC_PHOTO";
 	public const DOT_DAGER_TOGGLE_THEME = "DOT_DAGER_TOGGLE_THEME";
 	public const DOT_DAGER_TOGGLE_LANG = "DOT_DAGER_TOGGLE_LANG";
+	public const DOT_DAGER_MADE_BY = "DOT_DAGER_MADE_BY";
 	#endregion
 }
