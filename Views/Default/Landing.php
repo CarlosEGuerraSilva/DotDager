@@ -113,7 +113,7 @@ use App\Core\Server\Actions;
 		<div class="container projects-container">
 			<div class="row row-cols-1 row-cols-md-2 gx-0 gx-md-4 gy-4">
 				<div class="col">
-					<a href="https://github.com/MarianoVilla/Git-In-CSharp" class="text-decoration-none d-block mb-4">
+					<a target="_blank" href="https://github.com/MarianoVilla/Git-In-CSharp" class="text-decoration-none d-block mb-4">
 						<div class="project-card">
 							<md-ripple></md-ripple>
 							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_1.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
@@ -128,7 +128,7 @@ use App\Core\Server\Actions;
 							</div>
 						</div>
 					</a>
-					<a href="https://github.com/MarianoVilla/cocobot" class="text-decoration-none d-block">
+					<a target="_blank" href="https://github.com/MarianoVilla/cocobot" class="text-decoration-none d-block">
 						<div class="project-card">
 							<md-ripple></md-ripple>
 							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_4.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
@@ -145,7 +145,7 @@ use App\Core\Server\Actions;
 					</a>
 				</div>
 				<div class="col">
-					<a href="https://github.com/MarianoVilla/DNS-Server" class="text-decoration-none d-block mb-4">
+					<a target="_blank" href="https://github.com/MarianoVilla/DNS-Server" class="text-decoration-none d-block mb-4">
 						<div class="project-card">
 							<md-ripple></md-ripple>
 							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_2.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
@@ -159,7 +159,7 @@ use App\Core\Server\Actions;
 							</div>
 						</div>
 					</a>
-					<a href="https://github.com/MarianoVilla/HTTP-Server" class="text-decoration-none d-block">
+					<a target="_blank" href="https://github.com/MarianoVilla/HTTP-Server" class="text-decoration-none d-block">
 						<div class="project-card">
 							<md-ripple></md-ripple>
 							<img loading="lazy" src="<?php echo Actions::printResource("Images/projects/project_3.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_PROJECT_IMAGE) ?>">
@@ -255,7 +255,7 @@ use App\Core\Server\Actions;
 					</div>
 				</div>
 				<div class="col">
-					<a href="https://tbot.xyz/lumber/" class="text-decoration-none position-relative pickle-ee">
+					<a target="_blank" href="https://tbot.xyz/lumber/" class="text-decoration-none position-relative pickle-ee">
 						<img src="<?php echo Actions::printResource("Images/pickle_dager.svg") ?>" alt="Pepinooo" class=" max-width-px-50 pickle">
 						<md-ripple></md-ripple>
 						<div class="about-extra mb-2 h-100">
