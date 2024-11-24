@@ -255,7 +255,8 @@ use App\Core\Server\Actions;
 					</div>
 				</div>
 				<div class="col">
-					<a href="https://tbot.xyz/lumber/" class="text-decoration-none position-relative">
+					<a href="https://tbot.xyz/lumber/" class="text-decoration-none position-relative pickle-ee">
+						<img src="<?php echo Actions::printResource("Images/pickle_dager.svg") ?>" alt="Pepinooo" class=" max-width-px-50 pickle">
 						<md-ripple></md-ripple>
 						<div class="about-extra mb-2 h-100">
 							<img loading="lazy" src="<?php echo Actions::printResource("Images/dd_pickle.webp") ?>" alt="<?php echo Actions::printLocalized(Strings::DOT_DAGER_GENERIC_PHOTO) ?>">

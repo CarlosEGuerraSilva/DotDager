@@ -21,6 +21,16 @@
 	opacity: 0.4;
 }
 
+.pickle-ee:hover .pickle{
+	transform: translateY(-40px);
+}
+
+.pickle{
+	transition: all 0.2s ease-in-out;
+	position: absolute;
+	right: 0;
+}
+
 .hero b {
 	font-weight: bold !important;
 	color: var(--md-sys-color-primary);
