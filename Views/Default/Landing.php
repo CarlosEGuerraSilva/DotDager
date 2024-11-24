@@ -348,8 +348,8 @@ use App\Core\Server\Actions;
 	<div class="background-bg text-center pb-4">
 		&copy; 2024 <?php echo Actions::printLocalized(Strings::APP_NAME) ?>
 	</div>
-	<div class="background-bg text-center pb-2 color-gray" target="_blank">
-		<a href="https://www.linkedin.com/in/carlos-eduardo-guerra-silva/">
+	<div class="background-bg text-center pb-2 color-gray">
+		<a href="https://www.linkedin.com/in/carlos-eduardo-guerra-silva/" target="_blank">
 			<?php echo Actions::printLocalized(Strings::DOT_DAGER_MADE_BY) ?>
 		</a>
 	</div>
